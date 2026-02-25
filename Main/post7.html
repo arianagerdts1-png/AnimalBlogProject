@@ -15,11 +15,13 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="header">
-        <nav class="navbar container" id="navbar">
+    <header class="header" id="header">
+
+        <nav class="navbar container">
             <a href="./index.html">
                 <h2 class="logo">RescueTails</h2>
             </a>
+
             <div class="menu" id="menu">
                 <ul class="list">
                     <li class="list-item">
@@ -28,15 +30,14 @@
                     <li class="list-item">
                         <a href="./index.html#tags" class="list-link">Categories</a>
                     </li>
-                     
                     <li class="list-item">
                         <a href="./contact.html" class="list-link">Contact</a>
                     </li>
                     <li class="list-item screen-lg-hidden">
-                        <a href="./signin.html" class="list-link">Sign in</a>
+                        <a href="#" class="list-link" id="signin-btn">Sign in</a>
                     </li>
                     <li class="list-item screen-lg-hidden">
-                        <a href="./signup.html" class="list-link">Sign up</a>
+                        <a href="./index.html#newsletter" class="list-link">Sign up</a>
                     </li>
                 </ul>
             </div>
@@ -56,13 +57,14 @@
                     <i class="ri-close-line close-menu-icon"></i>
                 </button>
 
-                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
-                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                <a href="#" class="list-link screen-sm-hidden" id="mobile-signin-btn" onclick="alert('Work in Progress!')">Sign in</a>
+                <a href="./index.html#newsletter" class="btn sign-up-btn fancy-border screen-sm-hidden">
                     <span>Sign up</span>
                 </a>
             </div>
 
         </nav>
+
     </header>
 
     <!-- Search -->

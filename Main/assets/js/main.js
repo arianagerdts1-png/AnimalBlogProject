@@ -119,3 +119,20 @@ searchForm.addEventListener("submit", function(event) {
         alert("No matching article found.");
     }
 });
+
+// Temporary popup for Sign In
+const signinBtn = document.querySelector('#signin-btn');
+const mobileSigninBtn = document.querySelector('#mobile-signin-btn');
+if (signinBtn) {
+    signinBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        alert("Work in progress!");
+    });
+}
+
+if (mobileSigninBtn) {
+    mobileSigninBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        alert("Work in progress!");
+    });
+}
