@@ -133,7 +133,7 @@ searchForm.addEventListener("submit", function(event) {
     }
 });
 
-// Temporary popup for Sign In
+// Temporary popup for Register
 const signinBtn = document.querySelector('#signin-btn');
 const mobileSigninBtn = document.querySelector('#mobile-signin-btn');
 if (signinBtn) {
