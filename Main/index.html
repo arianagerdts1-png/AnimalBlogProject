@@ -437,13 +437,12 @@
                 <h6 class="title newsletter-title">Subscribe to RescueTails Newsletter!</h6>
                 <p class="newsletter-description">Subscribe to the newsletter for weekly updates on all the animal news!</p>
 
-                <form action="" class="form">
-                    <input class="form-input" type="text" placeholder="Enter your email address">
-                    <button class="btn form-btn" type="submit">
-                        <i class="ri-mail-send-line"></i>
-                    </button>
+                <form name="newsletter" method="POST" data-netlify="true" class="form">
+                    <input class="form-input" name="email" type="email" placeholder="Enter your email address" required>
+                        <button class="btn form-btn" type="submit">
+                            <i class="ri-mail-send-line"></i>
+                        </button>
                 </form>
-
             </div>
 
         </div>
@@ -476,7 +475,7 @@
                     </li>
                 </ul>
 
-                <span class="copyright-notice">2025 RescueTails.</span>
+                <span class="copyright-notice">2026 RescueTails.</span>
             </div>
 
 

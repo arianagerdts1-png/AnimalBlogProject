@@ -51,7 +51,7 @@ const body = document.body;
 const themeToggleBtn = selectElement('#theme-toggle-btn');
 const currentTheme = localStorage.getItem('currentTheme');
 
-// Check to see if there is a theme preference in local Storage, if so add the ligt theme to the body
+// Check to see if there is a theme preference in local Storage, if so add the light theme to the body
 if (currentTheme) {
     body.classList.add('light-theme');
 }
