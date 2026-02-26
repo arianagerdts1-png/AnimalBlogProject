@@ -2,6 +2,19 @@ const articles = [
     { title: "3 tips for new puppy owners", url: "post.html" },
     { title: "lazer pointers can cause severe OCD in dogs, here's what you need to know", url: "post2.html" },
     { title: "the perfect dog breeds for families", url: "post3.html" }
+    { title: "Why YOU Should Adopt! From Personal Experience", url: "post4.html" }
+    { title: "Why Feeding Stray Cats on the Street can be Damaging for the Ecosystem", url: "post5.html" }
+    { title: "Best Hikes to Go with your Dog, for Austinites", url: "post6.html" }
+    { title: "Eco‑Conscious Pet Parenting Tips", url: "post7.html" }
+    { title: "How This Monkey is Bringing Awareness to Animal Treatment", url: "post8.html" }
+    { title: "What is “The Victory Dance” in Dogs?", url: "post8.html" }
+    { title: "Austin", url: "tag-austin.html" }
+    { title: "Cats", url: "tag-cats.html" }
+    { title: "Dogs", url: "tag-dogs.html" }
+    { title: "Environment", url: "tag-environment.html" }
+    { title: "News", url: "tag-news.html" }
+    { title: "Science", url: "tag-science.html" }
+
 ];
 
 
